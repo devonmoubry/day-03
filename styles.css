@@ -69,6 +69,15 @@ header li {
     padding: 0 20px 100px;
 }
 
+h3 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+}
+.helper h3 {
+  color: #f5883b;
+}
+
 h5 {
     font-style: italic;
     font-size: 1rem;
