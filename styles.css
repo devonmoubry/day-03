@@ -3,13 +3,116 @@ html {
     font-family: 'Cormorant Garamond', serif;
 }
 
-header {
-  font-family: 'Open Sans Condensed', sans-serif;
+page {
+    background-color: #fff;
+    width: auto;
+    margin: 20px;
+    padding: 0px 37px;
+    display: block;
+    position: relative;
 }
+
+body {
+  background: url(http://fillmurray.com/100/120) repeat;
+}
+
+header {
+    font-family: 'Open Sans Condensed', sans-serif;
+    position: relative;
+    width: 100%;
+    height: 9rem;
+}
+
+header img {
+    display: inline-block;
+    position: relative;
+    left: 4.9rem;
+}
+
 .name {
-  font-family: 'Parisienne', cursive;
+    display: inline-block;
+    font-family: 'Parisienne', cursive;
+    position: relative;
+    left: 5.3rem;
+    top: .6rem;
+    font-size: 2.1rem;
+}
+
+nav {
+  display: inline-block;
+}
+
+header ul {
+  display: inline-block;
+  position: relative;
+  width: auto;
+  left: 23rem;
+}
+header li {
+  margin: .9rem;
+}
+
+.main {
+  max-width: 1000px;
+  margin: 0px auto;
+  padding: 0px 20px 100px;
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+}
+.about {
+  display:block;
+
+}
+.info + .bookcover {
+  display: inline-block;
+  position: relative;
+  width: auto;
+}
+.info {
+  margin: 0px auto;
+  padding: 0px 20px 100px;
+  max-width: 60%;
+}
+
+.book-cover img{
+  display: inline-block;
+  position: relative;
+  width: auto;
+}
+
+.work-samples {
+  display: block;
+}
+
+.work-samples ul {
+  display: inline-block;
+}
+
+.read-listen-buy {
+  display: block;
+}
+
+.read-listen + .buy {
+  display: inline-block;
+}
+
+.read-listen li {
+  display: block;
+}
+
+.contact {
+  display: block;
+}
+.get-in-touch + .helper {
+  display: inline-block;
 }
 
 footer {
+  display: block;
   font-family: 'Open Sans Condensed', sans-serif;
+  position: relative;
+  width: 100%;
 }
